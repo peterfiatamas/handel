@@ -1,0 +1,127 @@
+body html{
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-image: url("kep/GF-Handel.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#tarolo{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+.menu{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 140px;
+}
+.menu:hover{
+    background-color: g;
+    background-image: -webkit-linear-gradient(left top, #FFB603, #FFFC06);
+    background-image: -moz-linear-gradient(left top, #FFB603, #FFFC06);
+    background-image: -ms-linear-gradient(left top, #FFB603, #FFFC06);
+    background-image: -o-linear-gradient(left top, #FFB603, #FFFC06);
+    background-image: linear-gradient(left top, #FFB603, #FFFC06);
+}
+li{
+    text-decoration: none;
+    display: none;
+}
+
+#gord{
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    left: 656px;
+    width: 140px;
+}
+#ord2{
+    width: 140px;
+}
+.but{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 130px;
+    padding: 5px;
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: -2px;
+    padding-bottom: 7px;
+}
+.but:hover{
+    background-image: -webkit-linear-gradient(left top, #FFB603, #FFFC06);
+    background-image: -moz-linear-gradient(left top, #FFB603, #FFFC06);
+    background-image: -ms-linear-gradient(left top, #FFB603, #FFFC06);
+    background-image: -o-linear-gradient(left top, #FFB603, #FFFC06);
+    background-image: linear-gradient(left top, #FFB603, #FFFC06);
+}
+#rep{
+    position: absolute;
+    top: 105px;
+}
+.fullscreen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -100;/* Hogy a vidó fölé lehessen feliratot tenni!*/
+}
+#handel{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 130px;
+    padding: 5px;
+    display: inline-block;
+    position: absolute;
+    top: -3px;
+    left: -2px;
+}
+#handel:hover{
+    /*background-color: rgba(2, 20, 100, 0.5);*/
+    background-image: -webkit-linear-gradient(left top, #FFB603, #FFFC06);
+    background-image: -moz-linear-gradient(left top, #FFB603, #FFFC06);
+    background-image: -ms-linear-gradient(left top, #FFB603, #FFFC06);
+    background-image: -o-linear-gradient(left top, #FFB603, #FFFC06);
+    background-image: linear-gradient(left top, #FFB603, #FFFC06);
+}
+#klik{
+    border: 0;
+    padding: 6px;
+    padding-bottom: 8px;
+}
+#lablec{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    left: 50%;
+    font-size: 25px;
+    transform: translate(-50%);
+    margin-bottom: 5px;
+}
+#fejlec{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}

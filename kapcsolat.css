@@ -1,0 +1,56 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-image: -webkit-linear-gradient(top, #aeacba, #e2e1e7);
+    background-image: -moz-linear-gradient(top, #aeacba, #e2e1e7);
+    background-image: -ms-linear-gradient(top, #aeacba, #e2e1e7);
+    background-image: -o-linear-gradient(top, #aeacba, #e2e1e7);
+    background-image: linear-gradient(to bottom, #aeacba, #e2e1e7);
+}
+#header{
+    border-top: 3px solid gold;
+}
+
+#cim{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+#gord{
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 670px;
+}
+#kep{
+    width: 900px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.menu{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 120px;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.menu:hover{
+    /*background-color: rgba(2, 20, 100, 0.5);*/
+    background-color: #fffc06;
+    background-image: -webkit-linear-gradient(left top, #FFCC00, #FFFC06);
+    background-image: -moz-linear-gradient(left top, #FFCC00, #FFFC06);
+    background-image: -ms-linear-gradient(left top, #FFCC00, #FFFC06);
+    background-image: -o-linear-gradient(left top, #FFCC00, #FFFC06);
+    background-image: linear-gradient(left top, #FFCC00, #FFFC06);
+}
+#gombtarolo{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
