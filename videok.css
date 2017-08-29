@@ -1,0 +1,88 @@
+html{
+    border-bottom: 6px solid gold;
+    padding-bottom: 5px;
+}
+body{
+    margin: 0;
+    border-top: 3px solid gold;
+    background-image: -webkit-linear-gradient(top, #aeacba, #e2e1e7);
+    background-image: -moz-linear-gradient(top, #aeacba, #e2e1e7);
+    background-image: -ms-linear-gradient(top, #aeacba, #e2e1e7);
+    background-image: -o-linear-gradient(top, #aeacba, #e2e1e7);
+    background-image: linear-gradient(to bottom, #aeacba, #e2e1e7);
+    background-repeat: no-repeat;
+}
+#taroloE{
+    width: 65%;
+    float: left;
+}
+#taroloK{
+    width: 35%;
+    float: left;
+}
+#gombtarolo{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
+.menu{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    width: 120px;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #252222;
+}
+.menu:hover{
+    background-color: gold;
+}
+#hd{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-shadow:5px 5px 10px black;
+}
+#analoge{
+    margin-top: 70px;
+    margin-left: 215px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 5px 5px 10px #252222;
+}
+#vidTarolo{
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-left: 50px;
+    left: 5%;
+    margin-top: 25px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    box-shadow:  5px 5px 10px #252222;
+}
+#vidTarolo-2{
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 40px; 
+    margin-right: 50px;
+    left: -5%;
+    box-shadow:  5px 5px 10px #252222;
+}
+.vidik{
+    width: 560px;
+    height: 315px;
+    margin-top: 10px;    
+    box-shadow: 5px 5px 10px black;
+}
+.vidik-2{
+    width: 350px;
+    height: 250px;
+    margin-top:  10px;
+    box-shadow: 5px 5px 10px  black;
+}
