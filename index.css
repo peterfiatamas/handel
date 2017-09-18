@@ -31,12 +31,11 @@ body{
     width: 140px;
 }
 .menu:hover{
-    background-color: g;
-    background-image: -webkit-linear-gradient(left top, #FFB603, #FFFC06);
-    background-image: -moz-linear-gradient(left top, #FFB603, #FFFC06);
-    background-image: -ms-linear-gradient(left top, #FFB603, #FFFC06);
-    background-image: -o-linear-gradient(left top, #FFB603, #FFFC06);
-    background-image: linear-gradient(left top, #FFB603, #FFFC06);
+    background-color: gold;
+    
+}
+.menu-active{
+    background-color: red;
 }
 li{
     text-decoration: none;
@@ -124,4 +123,120 @@ li{
     color: white;
     font-size: 30px;
     margin-top: 10px;
+}
+
+
+@media screen and (max-width: 1024px){
+    #gord{
+        cursor: pointer;
+        display: none;
+        position: absolute;
+        left: 656px;
+        width: 140px;
+    }
+    #handel{
+        background-color: rgba(0, 0, 0, 0.5);
+        background-color: yellow;
+        width: 130px;
+        padding: 5px;
+        display: inline-block;
+        position: absolute;
+        top: -2px;
+        left: -388px;
+    }
+    .but{
+        text-decoration: none;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-color: yellow;
+        width: 130px;
+        padding: 5px;
+        display: inline-block;
+        position: absolute;
+        top: 50px;
+        left: -388px;
+        padding-bottom: 7px;
+    }
+    
+}
+@media screen and (max-width: 360px){
+    #gord{
+        cursor: pointer;
+        display: none;
+        position: absolute;
+        left: 656px;
+        width: 140px;
+    }
+    #handel{
+        background-color: rgba(0, 0, 0, 0.5);
+        background-color: yellow;
+        width: 130px;
+        padding: 5px;
+        display: inline-block;
+        position: absolute;
+        top: -2px;
+        left: -633px;
+    }
+    .but{
+        text-decoration: none;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-color: yellow;
+        width: 130px;
+        padding: 5px;
+        display: inline-block;
+        position: absolute;
+        top: 50px;
+        left: -633px;
+        padding-bottom: 7px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    #gord{
+        cursor: pointer;
+        display: none;
+        position: absolute;
+        left: 656px;
+        width: 140px;
+    }
+    #handel{
+        background-color: rgba(0, 0, 0, 0.5);
+        background-color: yellow;
+        width: 130px;
+        padding: 5px;
+        display: inline-block;
+        position: absolute;
+        top: -2px;
+        left: -636px;
+    }
+    .but{
+        text-decoration: none;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-color: yellow;
+        width: 130px;
+        padding: 5px;
+        display: inline-block;
+        position: absolute;
+        top: 50px;
+        left: -636px;
+        padding-bottom: 7px;
+    }
+
+    body{
+        background-color: blue;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }

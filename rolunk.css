@@ -15,9 +15,13 @@ body{
     -moz-user-select: none; /* Firefox 2+ */
     -ms-user-select: none; /* IE 10+ */
     user-select: none; /* Standard syntax */
+    background-image: url('kep/o2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 #gombtarolo{
-    display: inline-block;
+    display: none;
     text-align: center;
     width: 100%;
     position: fixed;
@@ -33,13 +37,28 @@ body{
     text-align: center;
     box-shadow:  5px 5px 10px #252222;
 }
+#menu2{
+        display: block;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 5px 0 5px 15px;
+        font-size: 25px;
+    }
 .menu:hover{
     background-color: gold;
 }
+#icon{
+    display: none;
+}
+#menu{
+    display: none;
+}
+
 #egy{
     max-width: 22.7%;
     float: right;
     margin-right: 80px;
+    margin-left: 20px;
 }
 #ketto{
     max-width: 22.7%;
@@ -62,6 +81,9 @@ body{
 p{
     float: left;
 }
+#sorIgazitas{
+    
+}
 .sorok{
     clear: both;
     padding-top: 10px;
@@ -71,13 +93,17 @@ p{
 }
 .bal{
     margin-left: 80px;
+    margin-right: 60px;
     margin-top: 20px;
     font-size: 20px;
+    font-family: 'Maven Pro', sans-serif;
 }
 .jobb{
     margin-right: 80px;
+    margin-left: 75px;
     margin-top: 20px;
     font-size: 20px;
+    font-family: 'Maven Pro', sans-serif;
 }
 #alahuz{
     text-decoration: underline;
@@ -116,5 +142,81 @@ img{
         width: 60px;
         font-size: 15px;
     }
-    
+
+    #gomb{
+        display: inline-block;
+        position: fixed;
+        left: 75px;
+        margin-top: 5px;
+    }
+    #icon{
+        width: 8%;
+        margin-top: 2px;
+        position: fixed;
+        left: 80px;
+        color: gold;
+        background-color: #afadbb;
+        display: inline-block;
+        box-shadow: none;
+    }
+    #menu{
+        display: inline-block;
+        position: fixed;
+        left: 82px;
+        top: 35px;
+        color: white;
+        font-size: 13px;
+        text-shadow: 2px 2px black;
+    }
+}
+@media screen and (max-width: 1024px){
+    body{
+        margin: 0;
+        border-top: 3px solid gold;
+        background-image: -webkit-linear-gradient(top, #aeacba, #e2e1e7);
+        background-image: -moz-linear-gradient(top, #aeacba, #e2e1e7);
+        background-image: -ms-linear-gradient(top, #aeacba, #e2e1e7);
+        background-image: -o-linear-gradient(top, #aeacba, #e2e1e7);
+        background-image: linear-gradient(to bottom, #aeacba, #e2e1e7);
+        background-repeat: no-repeat;
+        -webkit-user-select: none; /* Chrome, Opera, Safari */
+        -moz-user-select: none; /* Firefox 2+ */
+        -ms-user-select: none; /* IE 10+ */
+        user-select: none; /* Standard syntax */
+    }
+    #menu2{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 5px 0 5px 15px;
+        font-size: 25px;
+        position: fixed;
+        display: block;
+    }
+    #gombtarolo{
+    display: none;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 39px;
+}
+    .jobb{
+        margin: 5px 50px 5px 60px; 
+        font-size: 30px;
+    }
+    .bal{
+        margin: 5px 50px 5px 60px;
+        font-size: 30px;
+    }
+    #harom{  
+    float: right;
+    width: 70%;
+    margin-right: 60px;
+    }
+    #negy{    
+    float: left;
+    margin-left: 60px;
+    margin-right: 80px;
+    width: 70%;
+    }
 }

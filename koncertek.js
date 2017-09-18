@@ -1,5 +1,4 @@
 $(document).ready(function(){ 
-     $('#menu2').on('click', kibe);
           var timeout  
             , current = 0  
             , container = $('#slideshow')  
@@ -25,17 +24,11 @@ $(document).ready(function(){
             start();  
           }  
       
-          start();    
+          container.mouseenter(function () {  
+            clearTimeout(timeout)  
+          }).mouseleave(function () {  
+            start();  
+          });  
+      
+          start(); 
 });
-
-
-function kibe()
-{
-    if ($('#gombtarolo').is(':hidden'))
-    {
-        $('#gombtarolo').slideDown();
-    } else
-    {
-        $('#gombtarolo').slideUp();
-    }
-}
