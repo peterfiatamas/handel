@@ -1,3 +1,4 @@
+
 body, html{
     height: 100%;
     margin: 0;
@@ -23,6 +24,7 @@ body{
     color: white;
     font-size: 30px;
     text-shadow: 2px 2px black;
+    margin-top: 100px;
 }
 #gord{
     display: inline-block;
@@ -30,11 +32,28 @@ body{
     top: 40px;
     left: 670px;
 }
+#gombtarolo{
+    display: none;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 43px;
+}
 #kep{
     width: 35%;
     height: auto;
     display: block;
     margin: auto;
+}
+#menu2{
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 0 5px 15px;
+    font-size: 25px;
+    position: fixed;
+    cursor: pointer;
 }
 .menu{
     text-decoration: none;
@@ -49,15 +68,42 @@ body{
 }
 .menu:hover{
     /*background-color: rgba(2, 20, 100, 0.5);*/
-    background-color: #fffc06;
-    background-image: -webkit-linear-gradient(left top, #FFCC00, #FFFC06);
-    background-image: -moz-linear-gradient(left top, #FFCC00, #FFFC06);
-    background-image: -ms-linear-gradient(left top, #FFCC00, #FFFC06);
-    background-image: -o-linear-gradient(left top, #FFCC00, #FFFC06);
-    background-image: linear-gradient(left top, #FFCC00, #FFFC06);
+    background-color: gold;
+}
+#c:link{
+    background-color: gold;
 }
 #gombtarolo{
     display: inline-block;
     text-align: center;
     width: 100%;
+}
+@media screen and (max-width: 1024px){
+    #gombtarolo{
+        display: none;
+        text-align: center;
+        width: 100%;
+        position: fixed;
+        top: 40px;
+    }
+    #menu2{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 5px 0 5px 15px;
+        font-size: 25px;
+        position: fixed;
+        display: block;
+    }
+    .menu{
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 5px;
+        display: block;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 1px;
+    }
+
 }

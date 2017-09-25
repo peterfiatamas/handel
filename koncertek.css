@@ -43,10 +43,11 @@ body{
     font-family: 'Maven Pro', sans-serif;
 }
 #gombtarolo{
-    display: inline-block;
+    display: none;
     text-align: center;
     width: 100%;
     position: fixed;
+    top: 43px;
 }
 .menu{
     text-decoration: none;
@@ -62,6 +63,18 @@ body{
 }
 .menu:hover{
     background-color: gold;
+}
+#f:link{
+    background-color: gold;
+}
+#menu2{
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 0 5px 15px;
+    font-size: 25px;
+    position: fixed;
 }
 #keptok{
     text-align: center;
