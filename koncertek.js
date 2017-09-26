@@ -33,6 +33,7 @@ $(document).ready(function(){
           start(); 
 });
 $(document).ready(function () {
+    $('#f').css('background', 'gold');
     $('#menu2').on('click', kibe);
 });
 

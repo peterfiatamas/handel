@@ -60,9 +60,9 @@ body{
 .menu:hover{
     background-color: gold;
 }
-#e:link{
+/*#e:link{
     background-color: gold;
-}
+}*/
 #egy{
     max-width: 22.7%;
     float: right;
@@ -187,7 +187,6 @@ p{
         display: block;
         margin-top: 2px;
         box-shadow: 0;
-        font-size: 15px;
     }
     #gomb{
         display: inline-block;
@@ -239,7 +238,7 @@ p{
         text-align: center;
         width: 100%;
         position: fixed;
-        top: 39px;
+        top: 43px;
     }
     #menu2{
         width: 100%;

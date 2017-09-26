@@ -64,9 +64,9 @@ body{
 .menu:hover{
     background-color: gold;
 }
-#f:link{
+/*#f:link{
     background-color: gold;
-}
+}*/
 #menu2{
     display: block;
     width: 100%;

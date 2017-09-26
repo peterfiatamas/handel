@@ -47,9 +47,9 @@ body{
 .menu:hover{
     background-color: gold;
 }
-#d:link{
+/*#d:link{
     background-color: gold;
-}
+}*/
 #menu2{
     display: block;
     width: 100%;
@@ -112,7 +112,6 @@ body{
         display: block;
         margin-top: 2px;
         box-shadow: 0;
-        font-size: 15px;
     }
     #taroloE{
         width: 100%;
@@ -182,7 +181,7 @@ body{
     #gombtarolo{
         width: 100%;
         position: fixed;
-        top: 42px;
+        top: 43px;
         cursor: pointer;
     }
 }

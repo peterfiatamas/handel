@@ -70,9 +70,9 @@ body{
     /*background-color: rgba(2, 20, 100, 0.5);*/
     background-color: gold;
 }
-#c:link{
+/*#c:link{
     background-color: gold;
-}
+}*/
 #gombtarolo{
     display: inline-block;
     text-align: center;
@@ -84,7 +84,7 @@ body{
         text-align: center;
         width: 100%;
         position: fixed;
-        top: 40px;
+        top: 44px;
     }
     #menu2{
         width: 100%;

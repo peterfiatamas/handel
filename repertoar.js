@@ -1,4 +1,5 @@
 $(document).ready(function(){ 
+    $('#g').css('background', 'gold');
      $('#menu2').on('click', kibe);
           var timeout  
             , current = 0  

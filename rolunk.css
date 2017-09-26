@@ -20,11 +20,6 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-#gombtarolo{
-    text-align: center;
-    width: 100%;
-    position: fixed;
-}
 .menu{
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.7);
@@ -43,6 +38,9 @@ body{
     width: 100%;
     position: fixed;
     top: 44px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
 }
 
 #menu2{
@@ -58,9 +56,9 @@ body{
 .menu:hover{
     background-color: gold;
 }
-#b:link{
+/*#b:link{
     background-color: gold;
-}
+}*/
 
 
 #egy{
@@ -148,7 +146,6 @@ img{
         display: block;
         margin-top: 2px;
         box-shadow: 0;
-        font-size: 15px;
         padding: 5px;
     }
 
@@ -197,7 +194,7 @@ img{
         text-align: center;
         width: 100%;
         position: fixed;
-        top: 39px;
+        top: 43px;
     }
     .jobb{
         margin: 5px 50px 5px 60px; 
@@ -222,7 +219,6 @@ img{
         display: block;
         margin-top: 2px;
         box-shadow: 0;
-        font-size: 15px;
         padding: 5px;
     }
 }

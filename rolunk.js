@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $('#b').css('background', 'gold');
     $('#menu2').on('click', kibe);
 });
 
