@@ -1,37 +1,12 @@
-html{
-    border-bottom: 6px solid gold;
-    padding-bottom: 5px;
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 body{
-    margin: 0;
-    border-top: 3px solid gold;
-    background-image: -webkit-linear-gradient(top, #aeacba, #e2e1e7);
-    background-image: -moz-linear-gradient(top, #aeacba, #e2e1e7);
-    background-image: -ms-linear-gradient(top, #aeacba, #e2e1e7);
-    background-image: -o-linear-gradient(top, #aeacba, #e2e1e7);
-    background-image: linear-gradient(to bottom, #aeacba, #e2e1e7);
-    background-repeat: repeat;
-    background-image: url(kep/o2.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#taroloE{
-    width: 65%;
-    float: left;
-}
-#taroloK{
-    width: 35%;
-    float: left;
-}
-#gombtarolo{
-    display: none;
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    top: 44px;
-    cursor: pointer;
+    background-color: buttonshadow;
+
 }
 .menu{
     text-decoration: none;
@@ -42,7 +17,43 @@ body{
     color: white;
     font-size: 25px;
     text-align: center;
-    box-shadow: 5px 5px 10px #252222;
+    box-shadow:  5px 5px 10px #252222;
+    cursor: pointer;
+}
+a:hover{
+    background-color: gold;
+}
+#menu2{
+    display: block;
+    border-top: 3px solid gold;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: gold;
+    padding: 5px 0 5px 15px;
+    position: fixed;
+    cursor: pointer;
+    font-size: 25px;
+    color: gold;
+    padding-left: 40px;
+}
+span{
+    padding-left: 70%;
+}
+#gombtarolo{
+    display: none;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 44px;
+    width: 100%;
+}
+.taroloE{
+    width: 65%;
+    float: left;
+}
+.taroloK{
+    width: 35%;
+    float: left;
 }
 .menu:hover{
     background-color: gold;
@@ -50,16 +61,6 @@ body{
 /*#d:link{
     background-color: gold;
 }*/
-#menu2{
-    display: block;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 5px 0 5px 15px;
-    font-size: 25px;
-    position: fixed;
-    cursor: pointer;
-}
 #hd{
     margin-top: 9.7%;
     text-align: center;
@@ -74,7 +75,7 @@ body{
     color: white;
     text-shadow: 5px 5px 10px #252222;
 }
-#vidTarolo{
+.vidTarolo{
     width: 90%;
     background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
@@ -85,7 +86,7 @@ body{
     padding-bottom: 5px;
     box-shadow:  5px 5px 10px #252222;
 }
-#vidTarolo-2{
+.vidTarolo-2{
     width: 90%;
     background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
@@ -107,17 +108,48 @@ body{
     margin-top:  10px;
     box-shadow: 5px 5px 10px  black;
 }
+@media screen and (max-width: 1024px){
+    .vidik{
+        width: 90%;
+        height: 315px;
+        margin-top: 10px;    
+        box-shadow: 5px 5px 10px black;
+    }
+    .vidik-2{
+        width: 90%;
+        height: 250px;
+        margin-top:  10px;
+        box-shadow: 5px 5px 10px  black;
+    }
+    #gombtarolo{
+        width: 100%;
+        position: fixed;
+        top: 43px;
+        cursor: pointer;
+    }
+    span {
+        padding-left: 60%;
+        font-size: 15px;
+    }
+    #hd{
+        margin-top: 12%;
+    }
+    .menu{
+        width: 130px;
+    }
+}
+
 @media screen and (max-width: 760px){
     .menu{
         display: block;
         margin-top: 2px;
         box-shadow: 0;
     }
-    #taroloE{
+    .taroloE{
         width: 100%;
 
     }
-    #taroloK{
+    .taroloK{
         width: 100%;
 
     }
@@ -128,7 +160,7 @@ body{
         color: white;
         text-shadow: 5px 5px 10px #252222;
     }
-    #vidTarolo{
+    .vidTarolo{
         width: 90%;
         background-color: rgba(0, 0, 0, 0.7);
         text-align: center;
@@ -150,38 +182,5 @@ body{
         height: 250px;
         margin-top:  10px;
         box-shadow: 5px 5px 10px  black;
-    }
-}
-@media screen and (max-width: 1024px){
-    .vidik{
-        width: 90%;
-        height: 315px;
-        margin-top: 10px;    
-        box-shadow: 5px 5px 10px black;
-    }
-    .vidik-2{
-        width: 90%;
-        height: 250px;
-        margin-top:  10px;
-        box-shadow: 5px 5px 10px  black;
-    }
-    .menu{
-
-    }
-    body{
-        margin: 0;
-        border-top: 3px solid gold;
-        background-image: -webkit-linear-gradient(top, #aeacba, #e2e1e7);
-        background-image: -moz-linear-gradient(top, #aeacba, #e2e1e7);
-        background-image: -ms-linear-gradient(top, #aeacba, #e2e1e7);
-        background-image: -o-linear-gradient(top, #aeacba, #e2e1e7);
-        background-image: linear-gradient(to bottom, #aeacba, #e2e1e7);
-        background-repeat: repeat;
-    }
-    #gombtarolo{
-        width: 100%;
-        position: fixed;
-        top: 43px;
-        cursor: pointer;
     }
 }
